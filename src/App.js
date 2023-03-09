@@ -8,13 +8,19 @@ import products from "./products.json"
 function App() {
   const [money, setMoney]= useState(1000);
   const [basket, setBasket]=useState([]);
+  const [total, setTotal]=useState(0);
   useEffect(() => {
-    console.log(basket);
-  }, [basket])
+    setTotal(
+      basket.reduce((acc,item)=>{
+      return ( 
+        acc +
+        item.amount*products.find((product)=>product.id ===item.id).price)
+    },0));
+  }, [basket]);
   
   return (
     <div className="App">
-      <Header money={money} />
+      <Header money={money} total ={total} />
        {products.map((product)=>(<Product 
        key={product.id} 
        basket={basket} 
