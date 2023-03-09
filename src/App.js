@@ -34,7 +34,7 @@ function App() {
           money={money}
         />
       ))}
-      <Basket products={products} basket={basket} />
+      <Basket total={total} products={products} basket={basket} />
       <button onClick={resetBasket}>Sıfırla</button>
     </div>
   );
