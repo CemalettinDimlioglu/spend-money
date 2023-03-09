@@ -2,17 +2,17 @@
 {
    "id":1,
    "title":"sakiz",
-   "price":1  
+   "price":2.5  
 },
 {
    "id":2,
    "title":"çikolata",
-   "price":4 
+   "price":5
 },
 {
    "id":3,
    "title":"deterjan",
-   "price":10 
+   "price":25
 },
 {
    "id":4,
@@ -22,7 +22,7 @@
 {
    "id":5,
    "title":"kazak",
-   "price":50 
+   "price":100 
 }
 ]
 
