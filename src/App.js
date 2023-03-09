@@ -7,7 +7,7 @@ import Product from './components/Product';
 import products from "./products.json"
 
 function App() {
-  const [money, setMoney]= useState(1500);
+  const [money, setMoney]= useState(1750);
   const [basket, setBasket]=useState([]);
   const [total, setTotal]=useState(0);
   useEffect(() => {
