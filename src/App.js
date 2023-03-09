@@ -25,7 +25,11 @@ function App() {
        key={product.id} 
        basket={basket} 
        setBasket={setBasket} 
-       product={product} />
+       product={product}
+       total={total}
+       money={money}
+       
+        />
        ))}
 
     </div>
