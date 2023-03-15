@@ -23,6 +23,7 @@ function App() {
   }
   return (
     <div className="App">
+    <div className='container products' >
       <Header money={money} total={total} />
       {products.map((product) => (
         <Product
@@ -34,6 +35,7 @@ function App() {
           money={money}
         />
       ))}
+      </div>
       <Basket total={total} products={products} basket={basket} />
       <button onClick={resetBasket}>Sıfırla</button>
     </div>
