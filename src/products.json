@@ -2,27 +2,33 @@
 {
    "id":1,
    "title":"sakiz",
-   "price":2.5  
+   "price":2.5,
+   "image": "https://www.toptantr.com/content/images/thumbs/003/0037825_falim-sakiz-7-gr-20li-paket-cilek-aromali_550.jpeg"
 },
 {
    "id":2,
    "title":"çikolata",
-   "price":5
+   "price":5,
+   "image":"https://cdn03.ciceksepeti.com/cicek/kcm17536581-1/XL/schogetten-alman-cikolatasi-alpine-sutlu-cikolata-100g-3-adet-kcm17536581-1-6b9187b369f14b73b28113e7db5d01c1.jpg"
 },
 {
    "id":3,
    "title":"deterjan",
-   "price":25
+   "price":25,
+  "image":"https://images.migrosone.com/sanalmarket/product/30539566/30539566-26f293-1650x1650.jpg "
+
 },
 {
    "id":4,
    "title":"araba",
-   "price":1000 
+   "price":1000 ,
+   "image":"https://productimages.hepsiburada.net/s/33/375/10403483615282.jpg"
 },
 {
    "id":5,
    "title":"kazak",
-   "price":100 
+   "price":100 ,
+   "image":"https://cdn-gap.akinon.net/products/2022/09/23/329065/2d365941-adc3-48a9-9fdb-21cc22e6a14b_size520x693_cropCenter.jpg"
 }
 ]
 
