@@ -1,4 +1,4 @@
- .product {
+.product {
   padding: 15px;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -7,4 +7,39 @@
 }
 .product img {
   width: 100%;
+}
+.product h6 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.product .action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product .price {
+  font-size: 20px;
+  color: #179b17;
+}
+.action button {
+  background-color: #179b17;
+  color: white;
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 10px;
+  border: none;
+}
+.action button:hover{
+  opacity: 0.7;;
+}
+.action .amount{
+  width: 50px ;
+  text-align:center;
+}
+.action button[disabled]{
+
+  opacity: 0.3;
+  cursor: not-allowed
+
 }
