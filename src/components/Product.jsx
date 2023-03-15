@@ -1,5 +1,5 @@
 import React from "react";
-import "./product.css"
+import "./product.css";
 const Product = ({ product, basket, setBasket, total,money }) => {
   const basketItem = basket.find((item) => item.id === product.id);
   const removeBasket = () => {
